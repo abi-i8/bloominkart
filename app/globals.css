@@ -1,4 +1,4 @@
-*{box-sizing:border-box;margin:0;padding:0}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 :root{
   --cream:#FBF6EF;
   --warm:#F5EAD8;
@@ -45,7 +45,7 @@ nav.on{background:rgba(251,246,239,.96);backdrop-filter:blur(12px);box-shadow:0 
 
 /* ── HERO ── */
 #hero{
-  min-height:100vh;padding:7rem 3rem 4rem;
+  min-height:100svh;padding:7rem 3rem 4rem;
   display:flex;flex-direction:column;align-items:center;justify-content:center;
   text-align:center;position:relative;overflow:hidden;
   background:radial-gradient(ellipse 80% 60% at 50% 40%,rgba(232,144,124,.18) 0%,transparent 70%),var(--cream);
