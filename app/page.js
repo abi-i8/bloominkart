@@ -227,8 +227,8 @@ export default function Home() {
 
 {/*  LIGHTBOX  */}
 {lightboxImg && (
-  <div id="lb" className="on" onClick={() => setLightboxImg(null)} style={{ display: 'flex', opacity: 1, pointerEvents: 'auto' }}>
-    <button id="lb-x" onClick={() => setLightboxImg(null)}>Close ✕</button>
+  <div id="lb" className="on" onClick={() => setLightboxImg(null)}>
+    <button id="lb-x" onClick={() => setLightboxImg(null)}>✕</button>
     <img id="lb-img" src={lightboxImg} alt="" onClick={(e) => e.stopPropagation()} />
   </div>
 )}
